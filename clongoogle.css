@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 100vw;
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.4rem;
+}
+header {
+    height: 10vh;
+    text-align: end;
+}
+main {
+    height: 80vh;
+    text-align: center;
+}
+footer {
+    height: 10vh;
+    background-color: whitesmoke;
+}
+a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+nav .navheader a {
+    color: black;
+}
+.navheader .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.navheader .denise {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+}
+.picture .logo {
+    height: 92px;
+    width: 272px;
+}
+main .div-input {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 45px;
+    margin: 20px auto 35px auto;
+    border: 1px solid ;
+    border-color: #dfe1e5;
+    border-radius: 100px;
+}
+main .div-input:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+main .cuadro {
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+main .div-input .lupa {
+    background-image: url('./lupa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-top: 13px;
+    opacity: 45%;
+}
+main .div-input .microphone {
+    background-image: url('./microfono.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+main .botones {
+    display: flex;
+    justify-content: center;
+}
+main .botones .boton {
+    height: 36px;
+    color: #505357;
+    background-color: #f8f8f8;
+    border: 0;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .botones .boton:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 .5px .5px #c6c6c6;
+}
+footer .navfooter {
+    display: flex;
+    justify-content: space-between;
+}
+footer a {
+    color: #505357;
+}
+footer .navfooter .foot-left {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+footer .navfooter .foot-right {
+    margin-right: 40px;
+    margin-top: 20px;
+}
